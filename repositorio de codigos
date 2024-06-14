@@ -1,0 +1,2 @@
+#inicio de sesion az
+az login --use-device-code
