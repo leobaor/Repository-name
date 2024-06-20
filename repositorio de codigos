@@ -1,2 +1,6 @@
 #inicio de sesion az
 az login --use-device-code
+
+
+# Import the random module to be able to create a (pseudo) random number.
+import random
