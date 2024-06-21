@@ -1,6 +1,22 @@
 #inicio de sesion az
 az login --use-device-code
 
+import datetime  
+date = datetime.date(1977, 5, 8)       # assign a date to a variable
+print(date)                            # print date
+print(date.year)                       # print the year that the date is in
 
-# Import the random module to be able to create a (pseudo) random number.
+delta = datetime.timedelta(days=30)    # assign a timedelta of 30 days to a 
+                                       # variable
+print(date - delta)                    # print date of 30 days prior 
+
+import math  
+print(math.exp(0))          # e**0
+print(math.log(1))          # ln(1)
+print(math.factorial(4))    # 4! 
+print(math.sqrt(100))       # square root of 100
+
 import random
+print(random.random())          # 0.0 <= X < 1.0
+print(random.choice([1, 2, 3])) # choose a random element from a sequence
+print(random.randint(1, 10))    # a <= X <= b
