@@ -20,3 +20,6 @@ import random
 print(random.random())          # 0.0 <= X < 1.0
 print(random.choice([1, 2, 3])) # choose a random element from a sequence
 print(random.randint(1, 10))    # a <= X <= b
+
+
+https://datascientest.com/en/docker-tutorial-how-to-create-your-first-container seguimiento a la instalación docker
