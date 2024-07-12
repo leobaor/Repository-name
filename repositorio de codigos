@@ -23,3 +23,6 @@ print(random.randint(1, 10))    # a <= X <= b
 
 
 https://datascientest.com/en/docker-tutorial-how-to-create-your-first-container seguimiento a la instalación docker
+
+#conectar dockers en local
+docker network connect cne-ai_default cne-backend-flask
