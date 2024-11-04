@@ -26,3 +26,13 @@ https://datascientest.com/en/docker-tutorial-how-to-create-your-first-container 
 
 #conectar dockers en local
 docker network connect cne-ai_default cne-backend-flask
+
+
+The cp command can be used to copy files.
+
+One specific file can be copied TO the container like:
+
+docker cp foo.txt container_id:/foo.txt
+One specific file can be copied FROM the container like:
+
+docker cp container_id:/foo.txt foo.txt
